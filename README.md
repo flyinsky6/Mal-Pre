@@ -1,4 +1,5 @@
 #Mal-Prec
+
 Mal-Prec is a supervised machine learning classification to predict malonylated sites. In Mal-Prec, three encoding method including One-hot encoding, physiochemical properties (AAindex), and composition of k-spaced acid pairs (CKSAAP) were initially performed to extract sequence features. PCA was then applied to select optimal feature subsets while SVM was adopted to predict the malonylation sites. Five-fold cross-validation test and independent test results showed that Mal-Prec can achieve better prediction performance compared with other approaches. 
 
 Dataset
